@@ -1,0 +1,53 @@
+# macOS System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+
+# Shell History and Logs
+.bash_history
+.zsh_history
+.zsh_sessions/
+*.log
+
+# Package Managers
+.npm/
+.yarn/
+node_modules/
+
+# Sensitive Information
+.ssh/
+.gnupg/
+.aws/
+.env
+*.pem
+*.key
+.tokens
+.netrc
+
+# Cache Files
+.cache/
+.local/share/
+*.zwc
+*.pyc
+__pycache__/
+
+# Application Specific
+.vim/plugged/
+.vim/autoload/plug.vim
+.config/nvim/plugged/
+.config/git/credentials
+
+# Temporary Files
+tmp/
+*.tmp
+*.temp
