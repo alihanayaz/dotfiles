@@ -7,9 +7,11 @@
   "editor.minimap.renderCharacters": false,
   "editor.minimap.showSlider": "always",
   "editor.smoothScrolling": true,
+  "window.nativeTabs": true,
   "window.title": "${activeEditorMedium}${separator}${rootPath}",
   "window.zoomLevel": 0.2,
   "workbench.colorTheme": "GitHub Dark Colorblind (Beta)",
+  "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none"
