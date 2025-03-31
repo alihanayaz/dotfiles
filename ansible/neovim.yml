@@ -1,0 +1,20 @@
+- name: Set up Neovim
+  hosts: localhost
+  tasks:
+    - name: Clone Neovim repository
+      ansible.builtin.git:
+        repo: "https://github.com/neovim/neovim.git"
+        dest: "{{ lookup('ansible.builtin.env', 'HOME') }}/personal/neovim"
+        version: stable
+    - name: Install Neovim build dependencies
+      ansible.builtin.command:
+        cmd: "brew install ninja cmake gettext curl"
+    - name: Build Neovim
+      ansible.builtin.command:
+        cmd: "make CMAKE_BUILD_TYPE=RelWithDebInfo"
+        chdir: "{{ lookup('ansible.builtin.env', 'HOME') }}/personal/neovim"
+    - name: Install Neovim
+      become: true
+      ansible.builtin.command:
+        cmd: "make install"
+        chdir: "{{ lookup('ansible.builtin.env', 'HOME') }}/personal/neovim"
