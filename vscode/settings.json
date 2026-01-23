@@ -1,0 +1,56 @@
+{
+  // =========================
+  // Editor
+  // =========================
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.minimap.autohide": "mouseover",
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.smoothScrolling": true,
+
+  // =========================
+  // Explorer
+  // =========================
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // =========================
+  // Workbench
+  // =========================
+  "workbench.editor.enablePreview": false,
+  "workbench.editorAssociations": {
+    "*.svg": "default"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+
+  // =========================
+  // Window
+  // =========================
+  "window.nativeTabs": true,
+  "window.openFoldersInNewWindow": "on",
+  "window.zoomLevel": 0.4,
+
+  // =========================
+  // Git
+  // =========================
+  "git.confirmSync": false,
+  "git.defaultBranchName": "master",
+
+  // =========================
+  // Language Specific
+  // =========================
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
+}
