@@ -1,0 +1,23 @@
+# System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Runtime
+*~
+*.swp
+*.swo
+*.tmp
+*.bak
+*.log
+
+# Security
+.ssh/
+.gnupg/
+.aws/
+.netrc
+*.pem
+*.key
+.config/git/credentials
