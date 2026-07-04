@@ -1,23 +1,41 @@
-# System
+# OS
 .DS_Store
 .DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
 
-# Runtime
-*~
+# Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 *.swp
 *.swo
-*.tmp
-*.bak
-*.log
+*~
 
 # Security
+.env
+.env.*
 .ssh/
 .gnupg/
 .aws/
-.netrc
 *.pem
 *.key
+.netrc
 .config/git/credentials
+
+# Logs
+*.log
+.bash_history
+.zsh_history
+.zsh_sessions/
+
+# Caches
+__pycache__/
+*.pyc
+.cache/
+
+# Temporary
+*.tmp
+*.bak
