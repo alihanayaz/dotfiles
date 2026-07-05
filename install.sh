@@ -14,6 +14,7 @@ link_dotfile() {
 link_dotfile git/.gitconfig              "$HOME/.gitconfig"
 link_dotfile git/.gitignore_global       "$HOME/.gitignore_global"
 link_dotfile mos/com.caldis.Mos.plist    "$HOME/Library/Preferences/com.caldis.Mos.plist"
+link_dotfile skhd/.skhdrc                "$HOME/.skhdrc"
 link_dotfile tmux/.tmux.conf             "$HOME/.tmux.conf"
 link_dotfile vim/.vimrc                  "$HOME/.vimrc"
 link_dotfile vscode/settings.json        "$HOME/Library/Application Support/Code/User/settings.json"
