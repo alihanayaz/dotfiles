@@ -2,10 +2,11 @@
   // =========================
   // Editor
   // =========================
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "FiraCode Nerd Font Mono",
+  "editor.fontFamily": "GeistMono Nerd Font",
   "editor.fontSize": 14,
   "editor.lineHeight": 22,
   "editor.minimap.autohide": "mouseover",
@@ -23,11 +24,13 @@
   // =========================
   // Workbench
   // =========================
+  "workbench.activityBar.location": "top",
+  "workbench.colorTheme": "Vesper",
   "workbench.editor.enablePreview": false,
   "workbench.editorAssociations": {
     "*.svg": "default"
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "symbols",
   "workbench.list.smoothScrolling": true,
   "workbench.startupEditor": "none",
 
@@ -43,6 +46,11 @@
   // =========================
   "git.confirmSync": false,
   "git.defaultBranchName": "master",
+
+  // =========================
+  // Extensions
+  // =========================
+  "extensions.ignoreRecommendations": true,
 
   // =========================
   // Language Specific
