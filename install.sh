@@ -11,6 +11,7 @@ link_dotfile() {
   echo "$target_path -> $source_path"
 }
 
+link_dotfile ghostty/config              "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
 link_dotfile git/.gitconfig              "$HOME/.gitconfig"
 link_dotfile git/.gitignore_global       "$HOME/.gitignore_global"
 link_dotfile mos/com.caldis.Mos.plist    "$HOME/Library/Preferences/com.caldis.Mos.plist"
