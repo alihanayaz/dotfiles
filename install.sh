@@ -11,6 +11,10 @@ link_dotfile() {
   echo "$target_path -> $source_path"
 }
 
+if [[ ! -d "$HOME/.zsh/pure" ]]; then
+  git clone --depth 1 https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
+fi
+
 link_dotfile ghostty/config              "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
 link_dotfile git/.gitconfig              "$HOME/.gitconfig"
 link_dotfile git/.gitignore_global       "$HOME/.gitignore_global"
@@ -21,4 +25,3 @@ link_dotfile vim/.vimrc                  "$HOME/.vimrc"
 link_dotfile vscode/settings.json        "$HOME/Library/Application Support/Code/User/settings.json"
 link_dotfile yabai/.yabairc              "$HOME/.yabairc"
 link_dotfile zsh/.zshrc                  "$HOME/.zshrc"
-link_dotfile zsh/.p10k.zsh               "$HOME/.p10k.zsh"
