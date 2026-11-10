@@ -15,6 +15,8 @@ if [[ ! -d "$HOME/.zsh/pure" ]]; then
   git clone --depth 1 https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 fi
 
+mkdir -p "$HOME/.nvm"
+
 link_dotfile ghostty/config              "$HOME/Library/Application Support/com.mitchellh.ghostty/config"
 link_dotfile git/.gitconfig              "$HOME/.gitconfig"
 link_dotfile git/.gitignore_global       "$HOME/.gitignore_global"
