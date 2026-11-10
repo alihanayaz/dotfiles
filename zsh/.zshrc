@@ -4,7 +4,11 @@ ZSH_THEME=""
 
 plugins=(
     git
+    npm
+    pip
+    python
     zsh-autosuggestions
+    zsh-syntax-highlighting
 )
 
 fpath+=($HOME/.zsh/pure)
