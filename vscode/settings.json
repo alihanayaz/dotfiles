@@ -6,9 +6,10 @@
   "editor.cursorBlinking": "solid",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontFamily": "GeistMono Nerd Font",
+  "editor.fontFamily": "'Geist Mono', monospace",
   "editor.fontSize": 14,
-  "editor.lineHeight": 22,
+  "editor.formatOnSave": true,
+  "editor.lineHeight": 1.6,
   "editor.minimap.autohide": "mouseover",
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
@@ -20,6 +21,12 @@
   // =========================
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+
+  // =========================
+  // Files
+  // =========================
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
 
   // =========================
   // Workbench
@@ -39,7 +46,6 @@
   // =========================
   "window.nativeTabs": true,
   "window.openFoldersInNewWindow": "on",
-  "window.zoomLevel": 0.4,
 
   // =========================
   // Git
